@@ -21,14 +21,19 @@ Networking and meeting new people is very important both professionally and pers
 
 ### Installing
 
-* Download Visual Studio Codes
-* Download extensions for Prettier, ESLint and Live Server
+* Download Visual Studio Codes and Node.js
+* Download extensions for Prettier, ESLint and Live Server in Visual Studio Code
 
 
 ## Author and Homepage Link
 
 Aaron Leung  
 https://ahleung2.github.io/
+
+## Demonstration and Slides
+
+https://youtu.be/_v529ygBd5g
+https://docs.google.com/presentation/d/1W74vijiceGNkjq7ZX01kH4dLJF1YaZBbdjfMacVWH5s/edit#slide=id.g159686263ad_0_329
 
 ## Reference Link
 
