@@ -1,0 +1,83 @@
+body {
+  background-color: antiquewhite;
+}
+
+h1 {
+  background-color: #074f57;
+  background-image: url("/images/background-creative-license.jpg");
+  text-align: center;
+  color: white;
+  font-family: system-ui;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-blend-mode: multiply;
+}
+
+h2 {
+  color: rgb(23, 149, 180);
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  padding-top: 70px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#intro {
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 75px;
+  margin-right: 50px;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+#main {
+  background-image: url(/images/dna_background.jpg);
+}
+
+.hobby-image {
+  border-radius: 75%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.grid-rows {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1em;
+}
+
+.grid-columns {
+  margin: 5rem auto;
+  width: min(90%, 75rem);
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+}
+
+.description-tag {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+
+.description-definition {
+  font-style: italic;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.list-font {
+  font-family: "Times New Roman", Times, serif;
+}
