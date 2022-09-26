@@ -1,21 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Aaron's Website</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link href="/styles/styles.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link href="/styles/styles.css" rel="stylesheet" />
     <script src="/scripts/scripts.js"></script>
   </head>
   <body>
-    <h1 id="main">
-      Aaron Leung 
-    </h1>
+    <h1 id="main">Aaron Leung</h1>
     <!-- navbar using bootstrap -->
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="education.html">Education</a>
+        <a class="nav-link active" aria-current="page" href="education.html"
+          >Education</a
+        >
       </li>
       <li class="nav-item">
         <a class="nav-link" href="project.html">Projects</a>
@@ -27,41 +32,57 @@
         <a class="nav-link disabled">Coming Soon</a>
       </li>
     </ul>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
     <!--Using bootstrap grid layout-->
     <!--container-fluid: expand to fill entire width-->
     <div class="container-fluid">
-        <div class="row">
-            <!--col-sm: 576px-->
-            <div class="col-sm-4">
-                <img src="/images/Aaron-2.jpeg" alt="Person with short hair and glasses" class="center" id="profile">
-            </div>
-            <div class="col-sm-5">
-                <p id="intro">
-                    <h2>My Story</h2>
-                    <main>
-                        I completed my Bachelor's degree in Biology at UC Davis and am
-                        currently pursuing a Master's degree in Computer Science at Northeastern University.  Growing
-                        up, my interest has always been in healthcare and I worked at a physical therapy and rehabilitation 
-                        clinic for two years.  While working, I took my first computer science course and discovered how
-                        instrumental computer science can be in addressing ongoing health issues. My goal is to find opportunites to contribute in the field of
-                        computational biology.      
-                    <!--Quote generator using js function-->
-                      <h3>Quote of the Day</h3>
-                      <script>displayRandomQuote();</script>
-                    </main2>  
-                </p>
-            </div>
-            <div class="col-sm-3">
-              <h3>Contact Information</h3>
-              <ul>
-                <li>ahwleung2@gmail.com</li>
-                <li>
-                  <a href="https://www.linkedin.com/in/aaron-leung-2b94a424b/">LinkedIn</a>
-                </li>
-              </ul>
-            </div>
+      <div class="row">
+        <!--col-sm: 576px-->
+        <div class="col-sm-4">
+          <img
+            src="/images/Aaron-2.jpeg"
+            alt="Person with short hair and glasses"
+            class="center"
+            id="profile"
+          />
         </div>
+        <div class="col-sm-5">
+          <div id="intro">
+            <h2>My Story</h2>
+            <main>
+              I completed my Bachelor's degree in Biology at UC Davis and am
+              currently pursuing a Master's degree in Computer Science at
+              Northeastern University. Growing up, my interest has always been
+              in healthcare and I worked at a physical therapy and
+              rehabilitation clinic for two years. While working, I took my
+              first computer science course and discovered how instrumental
+              computer science can be in addressing ongoing health issues. My
+              goal is to find opportunites to contribute in the field of
+              computational biology.
+              <!--Quote generator using js function-->
+              <h3>Quote of the Day</h3>
+              <script>
+                displayRandomQuote();
+              </script>
+            </main>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <h3>Contact Information</h3>
+          <ul>
+            <li>ahwleung2@gmail.com</li>
+            <li>
+              <a href="https://www.linkedin.com/in/aaron-leung-2b94a424b/"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
