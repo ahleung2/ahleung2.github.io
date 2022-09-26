@@ -14,6 +14,7 @@ Networking and meeting new people is very important both professionally and pers
 
 * Visual Studio Codes
 * Node.js
+* Emmet
 * Prettier Extension
 * ESLint Extension
 * Live Server Extension
