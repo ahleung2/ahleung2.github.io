@@ -13,7 +13,6 @@ Networking and meeting new people is very important both professionally and pers
 ### Tech Requirements
 
 * Visual Studio Codes
-* Node.js
 * Emmet
 * Prettier Extension
 * ESLint Extension
